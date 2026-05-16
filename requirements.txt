@@ -1,0 +1,26 @@
+# Skeleton requirements for Jupyter + basic statistical analysis
+# Install with: python -m pip install -r requirements.txt
+
+# Jupyter
+jupyterlab>=4.0
+ipykernel
+ipywidgets>=8.0
+
+# Core data science
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+
+# Visualization
+matplotlib>=3.6
+seaborn>=0.12
+plotly>=5.9
+
+# Statistical modeling & ML
+statsmodels>=0.14
+scikit-learn>=1.2
+
+# Optional (use as needed)
+# jupyter-console
+# notebook
+# jupyter_contrib_nbextensions
